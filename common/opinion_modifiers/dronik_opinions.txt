@@ -1,0 +1,22 @@
+triggered_kostya_vs_vik = {
+	trigger = {
+			FROM = {
+				is_species = Грибовик 
+			}
+		}
+		opinion = {
+			base = -100
+		}
+	}
+	
+	triggered_vik_vs_kostya = {
+	trigger = {
+			
+			FROM = {
+				is_species = Костеклюв 
+			}
+		}
+		opinion = {
+			base = -100
+		}
+	}
