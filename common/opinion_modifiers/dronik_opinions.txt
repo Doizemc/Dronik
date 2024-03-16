@@ -1,22 +1,47 @@
 triggered_kostya_vs_vik = {
 	trigger = {
+			is_species = Костеклюв
 			FROM = {
 				is_species = Грибовик 
 			}
 		}
 		opinion = {
-			base = -100
+			base = -300
 		}
 	}
 	
 	triggered_vik_vs_kostya = {
 	trigger = {
-			
+			is_species = Грибовик
 			FROM = {
 				is_species = Костеклюв 
 			}
 		}
 		opinion = {
-			base = -100
+			base = -300
 		}
 	}
+
+	triggered_lion_vs_mih = {
+		trigger = {
+				is_species = Линдроид
+				FROM = {
+					is_species = Дроникоборец 
+				}
+			}
+			opinion = {
+				base = -1000
+			}
+		}
+
+		triggered_mih_vs_lion = {
+			trigger = {
+					is_species = Дроникоборец
+					FROM = {
+						is_species = Линдроид 
+					}
+				}
+				opinion = {
+					base = -1000
+				}
+			}
