@@ -8,5 +8,5 @@ tags={
 }
 name="The last bite of Dronik"
 picture="thumbnail.png"
-supported_version="3.11.2"
+supported_version="3.12.4"
 remote_file_id="3104564489"
