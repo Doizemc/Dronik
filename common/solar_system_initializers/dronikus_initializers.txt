@@ -1,0 +1,33 @@
+@base_moon_distance = 10
+
+dronikus_initializer = {
+    name = "Логово Дроника"
+    class = sc_m_giant
+	usage = misc_system_init
+	usage_odds = 20
+	max_instances = 1
+
+
+    planet = {
+        class = star
+        size = 30
+        orbit_distance = 0
+        orbit_angle = 1
+    }
+
+    change_orbit = 10
+
+    planet = {
+        class = pc_alpine
+        orbit_distance = 30
+        orbit_angle = { min = 90 max = 270 }
+
+		init_effect = {
+		create_archaeological_site = dronik_leg_cave
+	}
+
+
+		
+
+    }
+}

@@ -7,4 +7,19 @@ country_event  = {
 	picture = GFX_evt_astral_rift_ancient_battlegrounds
 	title = dronik.1.name
 	desc = dronik.1.desc
+	option = {
+		name = dronik.1.option.1
+	}
+}
+
+fleet_event  = {
+	id = dronik.2
+	is_triggered_only = yes
+	fire_only_once = yes
+	picture = GFX_evt_astral_rift_ancient_battlegrounds
+	title = dronik.2.name
+	desc = dronik.2.desc
+	option = {
+		name = dronik.2.option.1
+	}
 }
